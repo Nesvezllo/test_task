@@ -1,0 +1,54 @@
+.item {
+  border: 1px solid rgba(0, 0, 0, 0.253);
+  border-radius: 6px;
+  width: 15vw;
+  text-align: center;
+  margin: 20px;
+  background-color: white;
+  padding: 20px 0px;
+  p {
+    font-size: 20px;
+  }
+  .btnBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .btn {
+      width: 8vw;
+      height: 4.5vh;
+      background-color: #a49e8d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 0px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all .3s ease-in-out;
+      
+      p {
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        position: relative;
+        left: 0.5vw;
+      }
+      svg {
+        width: 30px;
+        position: relative;
+        top: 0.1vh;
+        left: 0.8vw;
+        transition: all .3s ease-in-out;
+      }
+
+      &:hover {
+        background-color: #000000;
+        svg {
+          transform: translateX(10px);
+        }
+      }
+
+    }
+
+  }
+}
